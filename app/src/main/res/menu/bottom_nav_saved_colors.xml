@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_delete_color"
+        android:icon="@drawable/ic_remove"
+        android:title="Slet farvekode" />
+
+    <item
+        android:id="@+id/nav_back_to_main"
+        android:icon="@drawable/ic_home"
+        android:title="Hjem" />
+
+    <item
+        android:id="@+id/nav_add_color"
+        android:icon="@drawable/ic_add"
+        android:title="Tilføj farvekode" />
+</menu>

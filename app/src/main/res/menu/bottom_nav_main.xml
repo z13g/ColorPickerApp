@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_gallery"
+        android:icon="@drawable/ic_gallery"
+        android:title="Galleri" />
+
+    <item
+        android:id="@+id/nav_saved_colors"
+        android:icon="@drawable/ic_saved_colors"
+        android:title="Gemte farver" />
+
+    <item
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/ic_camera"
+        android:title="Kamera" />
+</menu>
