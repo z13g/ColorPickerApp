@@ -2,7 +2,7 @@
     <item
         android:id="@+id/nav_delete_color"
         android:icon="@drawable/ic_remove"
-        android:title="Slet farvekode" />
+        android:title="Slet alle farvekoder" />
 
     <item
         android:id="@+id/nav_back_to_main"

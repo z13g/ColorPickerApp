@@ -146,6 +146,9 @@ public class MainActivity extends AppCompatActivity {
         // Tilføj farvekoden, hvis den ikke allerede findes
         if (!savedColors.contains(hexColor)) {
             savedColors.add(hexColor);
+        } else {
+            Toast.makeText(this, "Farvekoden er allerede gemt: " + hexColor, Toast.LENGTH_SHORT).show();
+            return;
         }
 
         // Gem den opdaterede liste i SharedPreferences
